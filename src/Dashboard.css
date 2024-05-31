@@ -1,0 +1,59 @@
+
+body {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+
+  .dashboard-container {
+    padding: 20px;
+  }
+  
+  .chart-container {
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #333;
+    border: none;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    color: #fff;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .list-group-item {
+    background-color: #555;
+    color: #fff;
+    border: none;
+  }
+
+  .list-group {
+    margin-bottom: 0;
+  }
+ 
+  .chart-legend {
+    color: #fff;
+  }
+  
+  .chart-tooltip {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  .chart-tooltip::before {
+    border-top-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .chart-tooltip::after {
+    border-top-color: #000;
+  }
+  
